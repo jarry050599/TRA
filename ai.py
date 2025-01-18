@@ -1,5 +1,4 @@
 import requests
-//ABC-002
 def call_gpt_api(prompt):
     headers = {
         "Authorization": f"Bearer {GPT_API_KEY}",
